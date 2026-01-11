@@ -154,7 +154,7 @@ span {
 .hero {
   background-color: #2e2f42;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/hero-bg.jpg");
@@ -318,12 +318,13 @@ span {
   height: 40px;
 }
 
-.social-icon-link:hover {
+.social-icon-link:hover,
+.social-icon-link:focus {
   background-color: #404bbf;
 }
 
 .social-icon-team {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 /* Portfolio */
 .portfolio-container {
@@ -436,7 +437,8 @@ footer {
   fill: #ffffff;
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: #31d0aa;
 }
 
