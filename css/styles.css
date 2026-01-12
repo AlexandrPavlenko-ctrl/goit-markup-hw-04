@@ -411,7 +411,7 @@ footer {
 }
 
 .footer-logo {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   display: block;
 }
 
@@ -434,7 +434,7 @@ footer {
 }
 
 .social-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .footer-icon-link:hover,
